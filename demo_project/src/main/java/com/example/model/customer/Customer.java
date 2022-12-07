@@ -10,6 +10,7 @@ public class Customer {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
+
     private String nameKinhhoang;
 
     public Customer() {
@@ -29,5 +30,8 @@ public class Customer {
 
     public void setName(String name) {
         this.nameKinhhoang = name;
+
     }
+
+
 }
