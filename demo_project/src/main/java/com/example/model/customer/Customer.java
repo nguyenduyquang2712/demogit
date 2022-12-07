@@ -10,7 +10,7 @@ public class Customer {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
-    private String name;
+    private String nameThamhoa;
 
     public Customer() {
     }
@@ -24,10 +24,10 @@ public class Customer {
     }
 
     public String getName() {
-        return name;
+        return nameThamhoa;
     }
 
     public void setName(String name) {
-        this.name = name;
+        this.nameThamhoa = name;
     }
 }
